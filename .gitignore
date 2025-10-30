@@ -1,0 +1,133 @@
+# =========================
+# 📦 GENERAL
+# =========================
+*.log
+*.env
+*.env.local
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+*.swp
+*.tmp
+__pycache__/
+*.py[cod]
+*$py.class
+*.pid
+
+# =========================
+# 🐍 PYTHON / DJANGO
+# =========================
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+node_modules/
+.env
+.env.local
+
+# pyenv
+.python-version
+
+# pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyre type checker
+.pyre/
+
+# pipenv
+Pipfile.lock
+
+# =========================
+# ⚛️ REACT / TYPESCRIPT FRONTEND
+# =========================
+# dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# production build
+build/
+dist/
+coverage/
+
+# misc
+*.tsbuildinfo
+*.tgz
+*.log
+*.map
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+*.local
+
+# editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧠 OPTIONAL (VS Code / Tests)
+# =========================
+.vscode/
+coverage/
+*.test.tsx
+*.spec.ts
+jest.config.js
+jest.config.ts
